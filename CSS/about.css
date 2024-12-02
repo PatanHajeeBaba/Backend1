@@ -1,0 +1,12 @@
+.card{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow: 0 0 10px rgb(154, 152, 152);
+    margin-top: -20px;
+}
+#educare{
+box-shadow: 0 0 15px rgb(26, 27, 26);
+}

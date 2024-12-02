@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+  }
+  .contact-page{
+    height: 100%;
+  }
+  .ch-row{
+    height: 200px;
+    /* margin-top: 100px; */
+    background-color: #a8e1ec;
+  }
+  .ch-row .ch-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ch-col h1{
+    font-size: 70px;
+    color: gray;
+  
+  }
+  .form-left, .form-right{
+    margin-top: 20px;
+  }
+  .form-left{
+    padding-bottom: 10px;
+  }
+  .col-email, .col-phone{
+    height: 80px;
+    padding: 5px;
+    background-color: rgb(238, 232, 232);
+    padding-left: 20px;
+    width: 49.5%;
+    border-radius: 10px;
+  }
+  .col-email{
+    float: left;
+    font-size: 21px;
+  }
+  .col-email span{
+    margin-right: 10px;
+  }
+  .col-phone span{
+    margin-right: 10px;
+  }
+  .col-phone{
+    float: right;
+    font-size: 21px;
+  
+  }
+  
+  .col-lo{
+    margin-top: 100px;
+    padding-top: 25px;
+    font-size: 21px;
+    height: 80px;
+    background-color: rgb(238, 232, 232);
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+  .col-lo span{
+    margin-right: 10px;
+  }
+  .col-loc{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(238, 232, 232);
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+  }
+  
+  
+  .form-right img{
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .form2-left, .form2-right{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .form2-left{
+    overflow: hidden;
+  }
+  .form2-left img{
+     height: 650px;
+     width: 100%;
+     border-radius: 10px;
+     border: 1px solid black;
+  
+  }
+  .form2-right{
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .form2-right label{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+  }
+  .ipt-div{
+    position: relative;
+  }
+  select{
+    outline: none;
+  }
+  .ipt-div .user, .em, .num{
+    position: absolute;
+    bottom: 0%;
+    right: 5px;
+    font-size: 22px;
+  }
+  #email, #phno{
+    width: 100%;
+  }
+  textarea{
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  input[type=submit]{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(11, 240, 137);
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  iframe{
+    width: 100%;
+    height: 100%;
+  }
+  .error{
+    color: red;
+  }
+  @media only screen and (max-width: 468px){
+     .col-email{
+      float: none;
+      width: 100%;
+     }
+     .col-phone{
+      float: none;
+      width: 100%;
+      margin-top: 10px;
+     }
+     .col-lo{
+      margin-top: 10px;
+     }
+  }
+  @media only screen and (min-width:469px) and (max-width: 768px){
+     .col-email{
+      float: none;
+      width: 100%;
+     }
+     .col-phone{
+      float: none;
+      width: 100%;
+      margin-top: 10px;
+     }
+     .col-lo{
+      margin-top: 10px;
+     }
+  }
