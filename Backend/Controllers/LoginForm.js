@@ -1,9 +1,9 @@
 const User = require('../Models/LoginForm')
 const LoginData = async(req,res) => {
-    const {fname, lname , gender , phone , dob ,email , address , street , city ,zip , highschool , university , experience1,experience2} = req.body
+    const {Email,Password} = req.body
     try{
         const Data= new User ({
-            fname, lname , gender , phone , dob ,email , address , street , city ,zip , highschool , university , experience1,experience2
+            Email,Password
         })
         console.log(Data)
         await Data.save()
